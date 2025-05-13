@@ -16,7 +16,7 @@
 | environments.
 |
 */
-$config['base_url'] = 'http://localhost:8084/experiment/bits/assignment/';
+$config['base_url'] = 'http://localhost:8084/bits/assignment/';
 
 /*
 |--------------------------------------------------------------------------
