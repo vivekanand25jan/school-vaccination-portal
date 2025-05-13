@@ -157,12 +157,12 @@ if (defined('ENVIRONMENT'))
 
 	$HOST = $_SERVER['HTTP_HOST'];
 	if($HOST=="localhost:8084" || $HOST=="127.0.0.1"){
-			define("BASE_URL","http://".$HOST."/experiment/bits/assignment/index.php/");
-			define("BASE_DIR","http://".$HOST."/experiment/bits/assignment/");
-			define("BASE_INCLUDES","http://".$HOST."/experiment/bits/wp-backend/");
+			define("BASE_URL","http://".$HOST."/bits/assignment/index.php/");
+			define("BASE_DIR","http://".$HOST."/bits/assignment/");
+			define("BASE_INCLUDES","http://".$HOST."/bits/wp-backend/");
 			define('LOGO_SIGN','dist/img/lohoh.png');
 	}else{
-		define("BASE_URL","http://".$HOST."/galileo/index.php/");
+		define("BASE_URL","http://".$HOST."/index.php/");
 		define("BASE_DIR","http://".$HOST."/");
 		define("BASE_INCLUDES","http://".$HOST."/asset/");
 		define('LOGO_SIGN','dist/img/lohoh.png');
