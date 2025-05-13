@@ -49,9 +49,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'atpcRoot';
-$db['default']['password'] = 'Mct$1500@2017';
-$db['default']['database'] = 'ecofriend';
+$db['default']['username'] = 'user';
+$db['default']['password'] = 'pass';
+$db['default']['database'] = 'bits';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
@@ -66,9 +66,9 @@ $db['default']['stricton'] = FALSE;
 
 
 $db['second']['hostname'] = 'localhost';
-$db['second']['username'] = 'atpcRoot';
-$db['second']['password'] = 'Mct$1500@2017';
-$db['second']['database'] = 'hotelbeds';
+$db['second']['username'] = 'user';
+$db['second']['password'] = 'pass';
+$db['second']['database'] = 'bits1';
 $db['second']['dbdriver'] = 'mysqli';
 $db['second']['dbprefix'] = '';
 $db['second']['pconnect'] = TRUE;
